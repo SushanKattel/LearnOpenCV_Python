@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread("F:/personal files/photos/birthday 076 photos/IMG_20200317_224019.jpg", 0 )
+img = cv2.imread("F:/personal files/photos/birthday 076 photos/IMG_20200317_224019.jpg", 0 ) # Give location to your image
 #1 for color image, 0 for grayscale, -1 for loading image as such including alpha channel
 print(img)
 
